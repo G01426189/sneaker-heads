@@ -27,3 +27,24 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+#jordans-1-desc{
+    color:#f3b76a
+}
+.background-container {
+    /* Set the background image using the provided URL */
+    background-image: url("//i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    
+    /* Set background size to cover the entire container */
+    background-size: cover;
+    
+    /* Set background position to center */
+    background-position: center;
+    
+    /* Set background repeat to no-repeat */
+    background-repeat: no-repeat;
+    
+    /* Optionally, you can specify other properties like width, height, padding, etc. */
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+}
